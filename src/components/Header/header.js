@@ -5,7 +5,7 @@ import React from "react"
 import './styles.scss';
 import Nav from '../Nav/index';
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, categories }) => (
   <header className="header">
     <div className="header-container">
       <h1 className="header-title">
@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <Nav />
+    <Nav categories={categories}/>
   </header>
 )
 

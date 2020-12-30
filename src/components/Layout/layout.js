@@ -12,11 +12,16 @@ import PropTypes from "prop-types"
 import Header from "../Header/header"
 import "./layout.scss"
 
+import categories from "../../data/categories";
+
 const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={`Title`} />
+      <Header
+        siteTitle={`Welcome to Spooky Umi's`}
+        categories={categories}
+      />
       <div
         style={{
           margin: `0 auto`,

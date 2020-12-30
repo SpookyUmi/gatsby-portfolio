@@ -1,0 +1,21 @@
+@use '../../styles/vars';
+
+.nav {
+
+  margin: 1rem;
+
+  &-link {
+    color: vars.$light-color;
+    text-decoration: none;
+    margin: 0.8rem;
+    transition: vars.$transition;
+
+    &--active {
+      color: pink;
+    }
+  }
+
+  &-link:hover {
+    opacity: vars.$opacity;
+  }
+}

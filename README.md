@@ -12,7 +12,13 @@ As I'm learning React, I want to share a new version of my portfolio, homemade w
 
 ## 🚀 Let's get started
 
-This new version will be composed of : 
+That is my first project using **Gatsby**. I'm new to the React environment and I wanted to explore *further possibilities* ! I thought Gatsby would be a great solution for my portfolio, as I wanted a **static**, **performant**, **easy to run** and to use website. To sum up, it allows me to focus on the content I share on this portfolio while learning to use a funny framework 🎉
+
+## Process
+
+### What's in there ?
+
+First, I determined the structure of this portfolio. This new version will be composed of : 
 - A **homepage** with : 
   - A quick **presentation**
   - A **music** I'd like to share 
@@ -20,6 +26,12 @@ This new version will be composed of :
 - My **resume**, that you can download (PDF version)
 - And *forthcoming*, a **blog** section
 
-### About this project
+Then I decided which **tools** I'll use : 
+- Gatsby (of course)
+- **Sass**, pure CSS with a dash of magic
+- **Fontawesome** for the social media icons
+- A few **gatsby plugins**
 
-That is my first project using **Gatsby**. I'm new to the React environment and I wanted to explore *further possibilities* ! I thought Gatsby would be a great solution for my portfolio, as I wanted a **static**, **performant**, **easy to run** and to use website. To sum up, it allows me to focus on the content I share on this portfolio while learning to use a funny framework 🎉
+The `package.json` file reveal all my secrets, if you want to check !
+
+And now I'm working on it ! See you soon 👋

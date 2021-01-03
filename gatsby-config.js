@@ -11,6 +11,7 @@ module.exports = {
         implementation: require("sass"),
       },
     },
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

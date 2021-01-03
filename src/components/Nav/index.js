@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { fab } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import './styles.scss';
 
@@ -19,7 +19,7 @@ const Nav = ({ categories }) => (
     </Link>
 
   ))}
-  <FontAwesomeIcon icon="coffee" />
+  <FontAwesomeIcon icon={faGithub} />
   </nav>
 )
 

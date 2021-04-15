@@ -23,6 +23,7 @@ First, I determined the structure of this portfolio. This new version will be co
   - A quick **presentation**
   - A **music** I'd like to share 
 - An "**about me**" section
+- My **stack** as a web developer
 - My **resume**, that you can download (PDF version)
 - And *forthcoming*, a **blog** section
 
@@ -32,6 +33,6 @@ Then I decided which **tools** I'll use :
 - **Fontawesome** for the social media icons
 - A few **gatsby plugins**
 
-The `package.json` file reveal all my secrets, if you want to check !
+The `package.json` file reveals all my secrets, if you're curious !
 
 And now I'm working on it ! See you soon 👋

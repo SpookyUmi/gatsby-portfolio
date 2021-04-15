@@ -5,7 +5,7 @@ import React from "react"
 import './styles.scss';
 import Nav from '../Nav/index';
 
-const Header = ({ siteTitle, categories }) => (
+const Navbar = ({ siteTitle, categories }) => (
   <header className="header">
     <div className="header-container">
       <h1 className="header-title">
@@ -18,15 +18,21 @@ const Header = ({ siteTitle, categories }) => (
       </h1>
     </div>
     <Nav categories={categories}/>
+    <p>
+      © Spooky Umi {new Date().getFullYear()}
+          {` `}
+          Built with ❤️ and <a href="https://www.gatsbyjs.com">Gatsby</a>
+          {` `}
+    </p>
   </header>
 )
 
-Header.propTypes = {
+Navbar.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+Navbar.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Navbar

@@ -8,7 +8,7 @@ import Presentation from "../components/Presentation/index"
 
 import homepage from "../data/homepage";
 
-const IndexPage = () => (
+const Portfolio = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hello, world !</h1>
@@ -23,4 +23,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default Portfolio;

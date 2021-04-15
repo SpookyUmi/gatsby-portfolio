@@ -1,14 +1,30 @@
 export default [
   {
-    route: '/blog',
-    label: 'Blog',
-  },
-  {
-    route: '/resume',
-    label: 'My resume',
+    route: '/',
+    label: 'home',
   },
   {
     route: '/about',
-    label: 'About',
+    label: 'about me',
+  },
+  {
+    route: '/stack',
+    label: 'my stack',
+  },
+  {
+    route: '/resume',
+    label: 'resume',
+  },
+  {
+    route: '/portfolio',
+    label: 'portfolio',
+  },
+  {
+    route: '/blog',
+    label: 'blog',
+  },
+  {
+    route: '/contact',
+    label: 'contact',
   },
 ];

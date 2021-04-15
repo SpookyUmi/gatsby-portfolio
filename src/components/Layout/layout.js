@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-//import { useStaticQuery, graphql } from "gatsby"
+import 'normalize.css';
 
 import Navbar from "../Navbar/navbar"
 import "./layout.scss"

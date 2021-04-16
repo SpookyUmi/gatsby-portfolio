@@ -1,11 +1,20 @@
 @use '../../styles/vars';
 
 .header {
-  background: vars.$background;
+  background: vars.$black;
   margin-bottom: 1.45rem;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
-  align-items: baseline;
+  height: 100%;
+  position: fixed;
+  width: 210px;
+  transition: 0.7s;
+  margin-left: -100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.4rem;
 
   &-container {
     max-width: 960;
@@ -16,13 +25,22 @@
     margin: 0;
 
     &-link {
-      color: vars.$light-color;
+      color: vars.$white;
       text-decoration: none;
       transition: vars.$transition;
     }
 
     &-link:hover {
-      opacity: vars.$opacity;
+      color: vars.$purple;
     }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    margin-left: 0;
   }
 }

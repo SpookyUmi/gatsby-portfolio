@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,400;0,700;1,400&display=swap");
+@import "@fontsource/poppins/scss/mixins";
+@include fontFace($weight: 400);
+@include fontFace($weight: 600);
+@include fontFace($weight: 800);
 
 html {
   -ms-text-size-adjust: 100%;
@@ -8,6 +12,8 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  width: 100%;
+  height: 100%;
 }
 body {
   margin: 0;
@@ -15,10 +21,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
   //? Font try
-  //font-family: "Playfair Display", serif;
-  font-family: "Nunito", sans-serif;
-  //font-family: 'Texturina', serif;
-  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  //font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -597,6 +601,25 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+main,
+body,
+.gatsby-container {
+  width: 100%;
+  height: 100%;
+}
+
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    margin-left: 230px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

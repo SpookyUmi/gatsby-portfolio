@@ -7,18 +7,21 @@ import './styles.scss';
 
 const Nav = ({ categories }) => (
   <nav className="nav">
-  {categories.map(({ label, route }) => (
-    <Link
-      className="nav-link"
-      activeClassName="nav-link--active"
-      exact
-      to={route}
-      key={label}
-    >
-    {label}
-    </Link>
-
-  ))}
+  <ul className="nav__list">
+    {categories.map(({ label, route }) => (
+      <li className="nav__list__elements">
+        <Link
+          className="nav-link"
+          activeClassName="nav-link--active"
+          exact
+          to={route}
+          key={label}
+        >
+        {label}
+        </Link>
+      </li>
+    ))}
+  </ul>
   <FontAwesomeIcon icon={faGithub} />
   </nav>
 )

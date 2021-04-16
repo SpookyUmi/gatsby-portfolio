@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import 'normalize.css';
+import "@fontsource/poppins";
 
 import Navbar from "../Navbar/navbar"
 import "./layout.scss"
@@ -16,11 +17,7 @@ const Layout = ({ children }) => {
         categories={categories}
       />
       <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
+        className="gatsby-container"
       >
         <main>
         {children}

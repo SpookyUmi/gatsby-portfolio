@@ -16,6 +16,10 @@
   font-weight: 600;
   font-size: 1.4rem;
 
+  &-title {
+    text-transform: capitalize;
+  }
+
   &-container {
     max-width: 960;
     padding: 1.45rem 1.0875rem;

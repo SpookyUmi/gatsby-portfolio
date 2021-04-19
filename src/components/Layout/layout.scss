@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,400;0,700;1,400&display=swap");
 @import "@fontsource/poppins/scss/mixins";
 @include fontFace($weight: 400);
 @include fontFace($weight: 600);
@@ -20,9 +17,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  //? Font try
-  font-family: "Poppins", sans-serif;
-  //font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -30,6 +24,18 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+/* h1,
+h2 {
+  font-size: 3.5rem;
+}
+
+h1,
+h2,
+a {
+  font-family: "Poppins", sans-serif;
+} */
+
 article,
 aside,
 details,
@@ -96,7 +102,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  //font-size: 2.25rem;
   line-height: 1.1;
 }
 mark {

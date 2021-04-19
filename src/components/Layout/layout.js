@@ -3,8 +3,9 @@ import PropTypes from "prop-types"
 import 'normalize.css';
 import "@fontsource/poppins";
 
-import Navbar from "../Navbar/navbar"
-import "./layout.scss"
+import Navbar from "../Navbar/navbar";
+import "./layout.scss";
+import "../../styles/typography.scss";
 
 import categories from "../../data/categories";
 

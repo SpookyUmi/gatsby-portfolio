@@ -1,10 +1,10 @@
 import React from "react"
 
-import SEO from "../components/Seo/seo"
+import Seo from "../components/Seo/seo"
 
 const About = () => (
   <>
-    <SEO title="About" />
+    <Seo title="About" />
     <p>Hey</p>
   </>
 )

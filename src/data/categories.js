@@ -1,4 +1,4 @@
-export default [
+const categories = [
   {
     route: '/',
     label: 'home',
@@ -28,3 +28,5 @@ export default [
     label: 'contact',
   },
 ];
+
+export default categories;

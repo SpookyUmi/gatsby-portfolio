@@ -28,7 +28,7 @@ const Image = () => {
     return <div>Picture not found</div>
   }
 
-  return <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} className="gatsby-image-wrapper" />
+  return <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} className="gatsby-image-wrapper" alt="gatsby-logo"/>
 }
 
 export default Image

@@ -1,20 +1,20 @@
 @use '../../styles/vars';
 
 .header {
-  background: vars.$black;
-  margin-bottom: 1.45rem;
+  background: var(--black);
+  //margin-bottom: 1.45rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   height: 100%;
   position: fixed;
-  width: 210px;
+  max-width: 220px;
+  //min-width: 220px;
   transition: 0.7s;
   margin-left: -100%;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.4rem;
 
   &-title {
     text-transform: capitalize;
@@ -40,11 +40,9 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .header {
-    position: fixed;
-    left: 0;
-    height: 100%;
+    position: initial;
     margin-left: 0;
   }
 }

@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import Image from "../components/Image/image"
-import SEO from "../components/Seo/seo"
+import Seo from "../components/Seo/seo"
 
 const Stack = () => (
   <>
-    <SEO title="Home" />
+    <Seo title="Home" />
     <h1>Hello, world !</h1>
     <p>I'm Chloe Danisevicius alias Spooky Umi.</p>
     <p>I'm a Fullstack Web Developer.</p>

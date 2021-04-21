@@ -1,8 +1,3 @@
-@import "@fontsource/poppins/scss/mixins";
-@include fontFace($weight: 400);
-@include fontFace($weight: 600);
-@include fontFace($weight: 800);
-
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -24,17 +19,6 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
-
-/* h1,
-h2 {
-  font-size: 3.5rem;
-}
-
-h1,
-h2,
-a {
-  font-family: "Poppins", sans-serif;
-} */
 
 article,
 aside,
@@ -98,11 +82,8 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  //font-size: 2.25rem;
   line-height: 1.1;
 }
 mark {
@@ -426,20 +407,6 @@ pre {
   background: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
   overflow: auto;
-  word-wrap: normal;
-  padding: 1.45rem;
-}
-table {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  font-size: 1rem;
-  line-height: 1.45rem;
   border-collapse: collapse;
   width: 100%;
 }
@@ -608,10 +575,13 @@ pre tt:after {
   content: "";
 }
 
-main,
 body,
 .gatsby-container {
   width: 100%;
+  height: 100%;
+}
+
+main {
   height: 100%;
 }
 
@@ -620,9 +590,9 @@ body,
   height: 100%;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   main {
-    margin-left: 230px;
+    margin-left: 3rem;
   }
 }
 

@@ -45,4 +45,4 @@ const Socials = () => (
   </SocialStyles>
 )
 
-export default Socials
+export default Socials;

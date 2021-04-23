@@ -20,13 +20,9 @@ const Layout = ({ children }) => {
         siteTitle={`Spooky Umi`}
         categories={categories}
       />
-      <div
-        className="gatsby-container"
-      >
         <main>
         {children}
         </main>
-      </div>
     </>
   )
 }

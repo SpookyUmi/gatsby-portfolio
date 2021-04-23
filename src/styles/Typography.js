@@ -14,13 +14,17 @@ const Typography = createGlobalStyle`
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
 
 html {
-  font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: var(--black);
 }
 
 h1,
 h2 {
   font-family: FrenchFries;
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 ${'' /* body {

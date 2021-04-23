@@ -27,11 +27,11 @@ const GlobalStyles = createGlobalStyle`
   button {
     background: var(--purple);
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
     border: 0;
-    padding: 0.6rem 1rem;
+    padding: 0.8rem 1.2rem;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s;

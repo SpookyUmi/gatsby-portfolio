@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
       <GlobalStyles />
       <Typography />
       <Navbar
-        siteTitle={`Welcome to Spooky Umi's`}
+        siteTitle={`Spooky Umi`}
         categories={categories}
       />
       <div

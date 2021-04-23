@@ -44,11 +44,6 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
     color: inherit;
-    transition: opacity 0.3s;
-  }
-
-  a:hover {
-    opacity: 0.7;
   }
 
   .gatsby-image-wrapper img[src*=base64\\,] {

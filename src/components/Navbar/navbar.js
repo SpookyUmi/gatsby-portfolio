@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from "../Image/image"
 
 import './styles.scss';
 import Nav from '../Nav/index';
@@ -8,6 +9,7 @@ import Nav from '../Nav/index';
 const Navbar = ({ siteTitle, categories }) => (
   <header className="header">
     <div className="header-container">
+      <Logo />
       <h1 className="header-title">
         <Link
           to="/"

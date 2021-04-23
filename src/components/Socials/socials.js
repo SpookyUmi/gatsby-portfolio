@@ -33,7 +33,7 @@ const SocialStyles = styled.div`
 `;
 
 const Socials = () => (
-  <SocialStyles className="socials">
+  <SocialStyles>
     <a href="https://github.com/SpookyUmi">
       <img src={github} alt="github logo" />
     </a>

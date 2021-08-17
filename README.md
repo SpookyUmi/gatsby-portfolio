@@ -12,7 +12,7 @@ As I'm learning React, I want to share a new version of my portfolio, homemade w
 
 ## 🚀 Let's get started
 
-That is my first project using **Gatsby**. I'm new to the React environment and I wanted to explore *further possibilities* ! I thought Gatsby would be a great solution for my portfolio, as I wanted a **static**, **performant**, **easy to run** and to use website. To sum up, it allows me to focus on the content I share on this portfolio while learning to use a funny framework 🎉
+That is my first project using **Gatsby**. I'm a fresh React developer and I wanted to explore *further possibilities* ! I thought Gatsby would be a great solution for my portfolio, as I wanted a **static**, **performant**, **easy to run** and to use website. To sum up, it allows me to focus on the content I share on this portfolio while learning to use a funny framework 🎉
 
 ## ⚙️ Process
 
